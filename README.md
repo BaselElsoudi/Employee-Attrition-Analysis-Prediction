@@ -14,35 +14,57 @@ The primary objective of Modulzy is to empower Human Resources departments with 
 🔍 Project Highlights
 
 1️⃣ Data Cleaning & Preprocessing
+
 🔹Cleaned and standardized HR data (e.g., handling missing values, encoding categorical fields).
+
 🔹Performed correlation analysis and feature selection to reduce noise and improve accuracy.
+
 🔹Engineered new features (e.g., total tenure, satisfaction ratings) from raw fields.
+
 2️⃣ Exploratory Data Analysis (EDA)
+
 🔹Explored patterns between attrition and features like department, overtime, job level, and income.
+
 🔹Visualized trends using histograms, pie charts, and satisfaction-level comparisons.
+
 3️⃣ Modeling & Evaluation
+
 🔹Trained multiple classification models: Random Forest, Gradient Boosting, and VotingClassifier.
+
 🔹Chose the best model using Accuracy, F1-Score, and ROC-AUC.
+
 🔹Exported the final model as a .pkl file for production.
+
 4️⃣ Deployment & Integration
+
 Built a full-stack system:
+
 🔹 Frontend: React.js form for HR data input
+
 🔹 Backend: .NET Core API calling the Python model via stdin
+
 🔹 Database: Logs predictions in SQLite with EF Core
+
 🔹 Dashboard: Visualizes live prediction results and user insights
 
 📈 Results & Impact
-Enables real-time attrition prediction from HR input
-Helps HR teams focus retention strategies where they matter most
-Fully functional system that simulates a real-world SaaS use case
+
+🔹Enables real-time attrition prediction from HR input
+
+🔹Helps HR teams focus retention strategies where they matter most
+
+🔹Fully functional system that simulates a real-world SaaS use case
 
 ---
 
 ## 📂 Project Structure
 
 ├── data/ # Cleaned HR dataset
+
 ├── model/ # Trained .pkl model
+
 ├── Employee_Attrition.ipynb # Main notebook with EDA & modeling
+
 ├── README.md 
 
 
